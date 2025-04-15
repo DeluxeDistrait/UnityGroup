@@ -26,4 +26,9 @@ public class MainMenuManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void LoadLevel(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
+    }
 }
